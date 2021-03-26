@@ -122,13 +122,21 @@ h2 {
 }
 
 .removemenuitem {
+    background-color: #BB9786;
     color: #401200;
+    min-width: 100px;
+    width: initial;
     font-family: 'Lexend Mega', sans-serif;
     font-weight: bold;
-    font-size: 25px;
-    float: right;
+    font-size: 18px;
+    border: none;
     cursor: pointer;
+    text-align: center;
+    padding: 15px;
     text-decoration: none;
+    border-radius: 25px;
+    user-select: none;
+    float: right;
 }
 
 .editmenuitem {
