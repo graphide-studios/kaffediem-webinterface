@@ -13,7 +13,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:"help      menuheadline add"
-                        "menuitems menuitems    menuitems"
                         "menuitems menuitems    menuitems";
 }
 
@@ -22,8 +21,8 @@
     max-height: 50px;
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:"menuitemheader      menuitemheader      menuitemheader      edit                delete";
+    grid-template-columns: 7fr 1fr 1fr;
+    grid-template-areas:"menuitemheader edit delete";
 }
 
 .body {
